@@ -1,4 +1,6 @@
 # Serverless Workflow Specification - Python SDK
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopen-workflow-specification%2Fsdk-python.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopen-workflow-specification%2Fsdk-python?ref=badge_shield)
+
 
 Provides the Python API/SPI for the [Serverless Workflow Specification](https://github.com/serverlessworkflow/specification)
 
@@ -164,3 +166,7 @@ The `StateMachineHelper` can be set with `get_actions` as `False` and the produc
 As for the `draw` method, the developer can also specify `graph_engine='mermaid'`. In that case, the method will not generate a figure, but rather the Mermaid code that can be executed, for instance, in the [Mermaid Live Editor](https://mermaid.live).
 
 It is also possible to only generate the workflow state machine. An example on how to do so can be analyzed in the [state_machine_helper](serverlessworkflow/sdk/state_machine_helper.py) source code.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fopen-workflow-specification%2Fsdk-python.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fopen-workflow-specification%2Fsdk-python?ref=badge_large)
